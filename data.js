@@ -159,7 +159,7 @@ const portfolioData = {
       title: "Uptime Monitoring Analysis",
       category: "Data Analytics and Visualization",
       description: "Dashboard that monitors uptime/downtime of applications, tracks response time, failure patterns, and system reliability to ensure seamless performance.",
-      technologies: ["Power BI", "Excel"],
+      technologies: ["Power BI", "Excel", "Python", "MongoDB"],
       image: "uptime-monitoring.webp",
       //githubLink: "https://github.com/Devaraj012/Call-Centre"
     },
@@ -167,7 +167,7 @@ const portfolioData = {
       title: "Virtual Try-On Using Augmented Reality",
       category: "Augmented Reality and Computer Vision",
       description: "Developed a virtual try-on system where users can visualize clothing on themselves using AR and computer vision models. Leveraged HR-VITON for garment warping and pose detection.",
-      technologies: ["Python", "HR-VITON", "OpenCV"],
+      technologies: ["Python", "Augmented Reality", "OpenCV"],
       image: "virtual-tryon.webp",
       //githubLink: "https://github.com/Devaraj012/Call-Centre"
     },
