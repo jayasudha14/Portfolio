@@ -82,11 +82,9 @@ const portfolioData = {
         company: "Novitech Solutions Private Limited",
         companyLink: "https://www.novitechsolutionsc.com/",
         description: [
-          "Designed and developed Power BI dashboards and reports to visualize key performance indicators (KPIs) and business metrics, improving decision-making processes by 20%.",
-          "Collaborated with business stakeholders to understand their data requirements and translate them into effective visualizations.",
-          "Extracted, transformed, and loaded data from various sources using Power Query and ETL processes.",
-          "Connected Power BI to diverse data sources, such as MySQL, SQL Server, Excel, MongoDB, and MariaDB.",
-          "Maintained and updated existing Power BI reports and dashboards to ensure data accuracy and relevance."
+          "Created dashboards and visual reports for business insights using Power BI.",
+          "Performed data cleaning, transformation, and analysis using SQL and Excel.",
+          "Collaborated with teams on AI-driven projects, enhancing data-driven decision-making."
         ],
         logo: "C:\\Users\\jayas\\Documents\\Python\\portfolio\\novitech-logo.png"
       }
