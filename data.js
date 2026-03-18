@@ -7,14 +7,15 @@ const portfolioData = {
     { id: "contact", label: "Contact" },
   ],
   home: {
-    name: "Jaya Sudha",
+    name: "Jayasudha N",
     title: [
       "Data Analyst",
-      "Junior Business Analyst"],
+      "Business Analyst",
+      "Power BI Developer"],
 
     description: [
-      "Results-driven Data Analyst & Junior Business Analyst with hands-on experience in data cleaning, exploratory analysis, dashboard development, and business requirement translation.",
-      "Skilled in transforming raw business and operational data into actionable insights. Experienced in KPI monitoring, stakeholder collaboration, performance analysis, and reporting automation within Agile environments"
+      "My passion is turning raw data into meaningful insights that drive effective business decisions. I love solving real problems with numbers.",
+      "I specialize in Power BI, SQL, and Python to deliver clear, actionable data stories."
     ],
     socialLinks: [
       { href: "https://github.com/jayasudha14", icon: "fa-brands fa-github" },
@@ -31,12 +32,20 @@ const portfolioData = {
   journey: {
     education: [
       {
-        date: "Graduated",
-        degree: "B.Sc Data Science & Analytics",
+        date: "Aug 2022 - Mar 2025",
+        degree: "Bachelor of Science in Data Science and Analytics",
         institution: "Sree Saraswathi Thyagaraja College",
         institutionLink: "https://www.stc.ac.in/",
-        description: "B.Sc Data Science & Analytics - 72%",
+        description: "Completed B.Sc. in Data Science and Analytics with a focus on statistical analysis, machine learning, and data visualization. Engaged in projects utilizing Python, R, and SQL. CGPA: 7",
         logo: "stc.png"
+      },
+      {
+        date: "Jun 2021 - March 2022",
+        degree: "HSC(XII), Computer Science",
+        institution: "Arokiyamatha Matriculation Higher Secondary School",
+        institutionLink: "https://arokiamatha.com/",
+        description: "Completed my Class 12 (HSC) at Arokiyamatha Matriculation Higher Secondary School, specializing in Computer Science.",
+        logo: "ams.png"
       }
     ],
     experience: [
@@ -68,42 +77,53 @@ const portfolioData = {
           "Assisted in data preparation, exploratory analysis, and insight generation."
         ],
         logo: "I BACUS TECH SOLUTION PRIVATE LIMITED NEW LOGO.png"
+      },
+      {
+        date: "Aug 2024 - oct 2024",
+        role: "Data Analyst Intern",
+        company: "Novitech Solutions Private Limited",
+        companyLink: "https://www.novitechsolutionsc.com/",
+        description: [
+          "Created dashboards and visual reports for business insights using Power BI.",
+          "Performed data cleaning, transformation, and analysis using SQL and Excel.",
+          "Collaborated with teams on AI-driven projects, enhancing data-driven decision-making."
+        ],
+        logo: "C:\\Users\\jayas\\Documents\\Python\\portfolio\\novitech-logo.png"
       }
     ]
   },
   skills: {
     categories: [
       {
-        title: "Data Visualization",
+        title: "Data & Analytics",
         skills: [
           { name: "Power BI", icon: "https://img.icons8.com/color/48/power-bi.png" },
           { name: "Tableau", icon: "https://img.icons8.com/color/48/tableau-software.png" },
           { name: "Excel", icon: "https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" },
+          { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
           { name: "Looker Studio", icon: "https://upload.wikimedia.org/wikipedia/commons/4/4f/Google_Data_Studio_logo.svg" },
           { name: "Google Analytics", icon: "https://upload.wikimedia.org/wikipedia/commons/7/7e/Google_Analytics_logo.png" }
         ]
       },
       {
-        title: "Programming & Analytics",
+        title: "Database Management",
         skills: [
-          { name: "Python", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" },
+          { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" },
+          { name: "MariaDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mariadb/mariadb-original.svg" },
+          { name: "SQL Server", icon: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" },
+          { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" }
+        ]
+      },
+      {
+        title: "Data Science & Libraries",
+        skills: [
           { name: "Pandas", icon: "https://pandas.pydata.org/static/img/pandas_mark.svg" },
-          { name: "NumPy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
+          { name: "Numpy", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/numpy/numpy-original.svg" },
           { name: "Matplotlib", icon: "https://matplotlib.org/stable/_static/logo2.svg" },
-          { name: "EDA", icon: "https://img.icons8.com/ios-filled/50/data-configuration.png" },
-          { name: "Data Cleaning", icon: "https://img.icons8.com/ios-filled/50/broom.png" }
+          { name: "Seaborn", icon: "https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" }
         ]
       },
-      {
-        title: "Databases",
-        skills: [
-          { name: "SQL", icon: "https://www.svgrepo.com/show/303229/microsoft-sql-server-logo.svg" },
-          { name: "MySQL", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" },
-          { name: "MongoDB", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" }
-        ]
-      },
-      {
-        title: "Business Analysis",
+      {        title: "Business Analysis",
         skills: [
           { name: "Requirement Gathering", icon: "https://img.icons8.com/ios-filled/50/requirement.png" },
           { name: "BRD", icon: "https://img.icons8.com/ios-filled/50/document.png" },
@@ -122,8 +142,11 @@ const portfolioData = {
         ]
       },
       {
-        title: "Concepts & Soft Skills",
+        title: "Others",
         skills: [
+          { name: "GIT", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" },
+          { name: "GitHub", icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" },
+          { name: "Canva", icon: "https://upload.wikimedia.org/wikipedia/commons/0/0e/Canva_Logo.svg" },
           { name: "Data Validation", icon: "https://img.icons8.com/ios-filled/50/check.png" },
           { name: "Trend Analysis", icon: "https://img.icons8.com/ios-filled/50/line-chart.png" },
           { name: "Root Cause Analysis", icon: "https://img.icons8.com/ios-filled/50/search.png" },
@@ -135,32 +158,44 @@ const portfolioData = {
   },
   projects: [
     {
-      title: "ATM Transaction Performance & Risk Analysis Dashboard",
-      category: "Data Analytics",
-      description: "Built Power BI dashboard analyzing transaction volume trends, downtime patterns, and fraud indicators. Applied aggregation and trend analysis techniques to identify operational inefficiencies. Improved visibility of ATM performance KPIs for monitoring teams",
-      technologies: ["Power BI"],
-      image: "atm-analysis.webp"
-    },
-    {
-      title: "Customer Segmentation & Sales Performance Analytics",
-      category: "Data Analytics",
-      description: "Performed customer segmentation using RFM analysis and clustering techniques on retail sales dataset. Identified high-value, churn-risk, and frequent customer groups to support targeted marketing strategies. Built Power BI dashboard visualizing customer lifetime value, purchase frequency, revenue contribution, and retention trends.",
-      technologies: ["Power BI"],
-      image: "adventure-works.webp"
-    },
-    {
-      title: "Emotion-Based Music Recommendation System",
+      title: "Music Recommender System Based on Human Emotions",
       category: "Artificial Intelligence and Machine Learning",
-      description: "Developed real-time emotion recognition system using DeepFace and OpenCV. Integrated Spotify API to recommend personalized playlists. Demonstrated machine learning application in customer experience personalization.",
-      technologies: ["DeepFace", "OpenCV", "Spotify API"],
-      image: "music-recommendation.jpg00000000000"
+      description: "A machine learning model that analyzes facial expressions and emotional cues to recommend music that matches the user's mood. Includes emotion detection, data preprocessing, model training, and playlist generation.",
+      technologies: ["Python", "OpenCV", "TensorFlow"],
+      image: "music-recommendation.jpg00000000000",
+      //githubLink: "https://github.com/Devaraj012/IPL"
     },
     {
-      title: "Server Uptime Monitoring & Performance Analytics",
+      title: "ATM Transaction Analysis",
+      category: "Data Analytics",
+      description: "A Power BI dashboard analyzing ATM transaction patterns, cash withdrawals, downtime, customer activity, and location-based trends to improve operational efficiency.",
+      technologies: ["Power BI", "Excel"],
+      image: "atm-analysis.webp",
+      //githubLink: "https://github.com/Devaraj012/Call-Centre"
+    },
+    {
+      title: "Uptime Monitoring Analysis",
       category: "Data Analytics and Visualization",
-      description: "Processed server log datasets using Python to evaluate uptime and latency trends. Designed dashboards highlighting downtime frequency and system efficiency metrics. Provided insights supporting infrastructure performance optimization.",
-      technologies: ["Python"],
-      image: "uptime-monitoring.webp"
+      description: "Dashboard that monitors uptime/downtime of applications, tracks response time, failure patterns, and system reliability to ensure seamless performance.",
+      technologies: ["Power BI", "Excel", "Python", "MongoDB"],
+      image: "uptime-monitoring.webp",
+      //githubLink: "https://github.com/Devaraj012/Call-Centre"
+    },
+    {
+      title: "Virtual Try-On Using Augmented Reality",
+      category: "Augmented Reality and Computer Vision",
+      description: "Developed a virtual try-on system where users can visualize clothing on themselves using AR and computer vision models. Leveraged HR-VITON for garment warping and pose detection.",
+      technologies: ["Python", "Augmented Reality", "OpenCV"],
+      image: "virtual-tryon.webp",
+      //githubLink: "https://github.com/Devaraj012/Call-Centre"
+    },
+    {
+      title: "Adventure Works Sales Analysis",
+      category: "Data Analytics and Visualization",
+      description: "End-to-end sales analysis dashboard showcasing customer trends, product performance, regional sales, and profit metrics using the Adventure Works dataset.",
+      technologies: ["Power BI", "Excel"],
+      image: "adventure-works.webp",
+      //githubLink: "https://github.com/Devaraj012/Call-Centre"
     }
   ]
 };
